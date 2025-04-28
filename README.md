@@ -15,7 +15,7 @@ We want to provide a machine learning solution that helps identify the most like
 
 ## Pipeline
 
-![Project Pipeline](pipeline.png)
+![Project Pipeline](docs/pipeline.png)
 
 ## Project Structure
 
