@@ -1,0 +1,34 @@
+ClusterSuggested Name
+0 Finance and Business Consulting 
+1 Construction and Trade Technicians 
+2 Operations and Facility Management 
+3 Traditional Craftsmanship and Artisans 
+4 Healthcare and Wellness Services 
+5 Marketing, Sales, and Business Development 
+6 Media, Communication, and Publishing 
+7 Retail and Logistics Operations 
+8 Environmental and Sustainability Specialists 
+9 Engineering and High-Tech Manufacturing 
+10 Office, Administrative, and Customer Service Roles 
+11 Community Engagement and Public Service 
+12 ICT and Infrastructure Engineering 
+13 Animal Care and Veterinary Services 
+14 Scientific Research and Natural Sciences 
+15 Industrial Machinery and Production Operators 
+16 Transport and Logistics Coordination 
+17 Data, Law, and Information Security 
+18 Safety, Inspection, and Compliance Officers 
+19 Construction, Real Estate, and Building Trades 
+20 Technical Repair and Maintenance Services 
+21 Cultural Heritage and Museum Professions 
+22 Agriculture and Horticulture Experts 
+23 Performing Arts and Creative Industries 
+24 Culinary Arts and Hospitality Services 
+25 Sports, Fitness, and Physical Education 
+26 Accounting, Finance, and Recordkeeping 
+27 Manufacturing and Production Management 
+28 Health, Therapy, and Social Care 
+29 Education, Teaching, and Training Professionals 
+30 Aviation Operations and Flight Services 
+31 Industrial Process Engineering and Energy 
+32 Precision Manufacturing and Skilled Trades 
