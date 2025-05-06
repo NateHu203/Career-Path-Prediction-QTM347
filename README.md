@@ -78,7 +78,7 @@ Model performance metrics and visualizations can be found in the corresponding n
 - Cluster 19 (Confidence: 0.0733): Construction, Real Estate, and Building Trades
 - Cluster 16 (Confidence: 0.0633): Transport and Logistics Coordination
 
-## Conclusion of Experimen
+## Conclusion of our Experiment
 - The transformer-based sequence model is effective for next-job prediction
 - Achieves relatively accurate performance on core career categories
   
