@@ -14,11 +14,13 @@ We want to provide a machine learning solution that helps identify the most like
 - Better predictions could inform career-planning tools, HR systems, and personalized learning recommendations
 
 ## Pipeline
-
 ![Project Pipeline](docs/pipeline.png)
 
-## Project Structure
+### Clustering Example:
 
+
+
+## Project Structure
 - `code/career_data_utils.py`: Utility functions for processing career data
 - `code/Karrierewege_plus_transformer_v2.py`: Transformer-based model implementation
 - `code/lstm_code_v3.ipynb`: LSTM model implementation notebook
