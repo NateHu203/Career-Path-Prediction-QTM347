@@ -43,7 +43,6 @@ We want to provide a machine learning solution that helps identify the most like
    ```
 
 ## Models
-
 The project implements and compares two main approaches:
 1. **Transformer-based model**: For sequence modeling of career paths
 2. **LSTM model**: For sequential prediction of career transitions
@@ -63,11 +62,35 @@ The project implements and compares two main approaches:
 
 Model performance metrics and visualizations can be found in the corresponding notebook and log files.
 
+## Case Study:
+
+### Input: ['research assistant', 'doctoral researcher', 'postdoctoral researcher'] as a sequance:
+- Cluster 14 (Confidence: 0.4919): Scientific Research & Natural Science
+- Cluster 29 (Confidence: 0.1388): Education, Teaching, and Training Professionals
+- Cluster 17 (Confidence: 0.1094): Data, Law, and Information Security
+- Cluster 21 (Confidence: 0.0334): Cultural Heritage and Museum Professions
+- Cluster 0 (Confidence: 0.0260): Finance and Business Consulting
+
+### Input: ['construction laborer', 'metal fabricator'] as a sequence:
+- Cluster 1 (Confidence: 0.2233): Construction and Trade Technicians 
+- Cluster 15 (Confidence: 0.1437): Industrial Machinery and Production Operators
+- Cluster 12 (Confidence: 0.0761): ICT and Infrastructure Engineering
+- Cluster 19 (Confidence: 0.0733): Construction, Real Estate, and Building Trades
+- Cluster 16 (Confidence: 0.0633): Transport and Logistics Coordination
+
+## Conclusion of Experimen
+- The transformer-based sequence model is effective for next-job prediction
+- Achieves relatively accurate performance on core career categories
+  
+### Limitations:
+- Data sparsity: Too many job categories will lower our prediction accuracy 
+- K-Means clustering might lead to biases (K-Means++ or K-Medoids might improve)
+- Randomness: Some people switch job not inconsistently, factors such as economy and politics might influence one’s decision as well.
+
 ## Contributors
 - Nate Hu, Victor Ji, Tom Suo, Max Jiang
 
 ## References
-
 ```
 @article{senger2024karrierewege,
   title={KARRIEREWEGE: A Large Scale Career Path Prediction Dataset},
