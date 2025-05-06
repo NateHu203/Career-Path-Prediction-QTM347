@@ -1,26 +1,34 @@
 # QTM-347 Project
 
 ## Career Path Analysis and Prediction
-
 This project uses machine learning techniques to analyze and predict career trajectories based on job history data.
 
 ## Goal of this Project
-
 We want to provide a machine learning solution that helps identify the most likely next occupation or career move based on past experiences.
 
 ## Application & Motivation
-
 - Why Transformer? A Transformer can model the full sequence of past jobs to predict the next role more accurately
 - Better predictions could inform career-planning tools, HR systems, and personalized learning recommendations
 
 ## Pipeline
 ![Project Pipeline](docs/pipeline.png)
 
+### Clustering Process:
+- First stack job title vector with job description vector (vectors obtained using the sentence transformer)
+- Second, we apply the K-Means clustering
+- The optimized resulted is shown in the above table.
+- 
 ### Clustering Example:
+| **Cluster id** | **Title**                                      | **Example Job Titles**                                                                                     |
+|----------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| 14             | Scientific Research and Natural Sciences       | anthropologist; astronomer; biochemical engineer; biochemist                                              |
+| 29             | Education, Teaching, and Training Professionals| assistant lecturer; career guidance advisor; digital literacy teacher; drama teacher; driving instructor |
+| 0              | Finance and Business Consulting                | actuarial consultant; business coach; business consultant; business economics researcher; business manager|
+| ...            | ...                                            | ...                                                                                                        |
+**Total Cluster Count: 33**, each containing around 25~50 related job titles
 
 
-
-## Project Structure
+## Git Repo Structure
 - `code/career_data_utils.py`: Utility functions for processing career data
 - `code/Karrierewege_plus_transformer_v2.py`: Transformer-based model implementation
 - `code/lstm_code_v3.ipynb`: LSTM model implementation notebook
@@ -43,14 +51,13 @@ We want to provide a machine learning solution that helps identify the most like
    # To use the LSTM model, open the notebook
    jupyter notebook code/lstm_code_v3.ipynb
    ```
-
+   
 ## Models
 The project implements and compares two main approaches:
 1. **Transformer-based model**: For sequence modeling of career paths
 2. **LSTM model**: For sequential prediction of career transitions
 
 ## Results
-
 ### Transformer Model Performance
 - Lowest validation loss (tuning): 3.0444
 - Test loss: 3.0047
@@ -62,10 +69,9 @@ The project implements and compares two main approaches:
 - Batch size: 32
 - Learning rate: 0.0010
 
-Model performance metrics and visualizations can be found in the corresponding notebook and log files.
+**Note:** Model performance metrics and visualizations can be found in the corresponding notebook and log files.
 
 ## Case Study:
-
 ### Input: ['research assistant', 'doctoral researcher', 'postdoctoral researcher'] as a sequance:
 - Cluster 14 (Confidence: 0.4919): Scientific Research & Natural Science
 - Cluster 29 (Confidence: 0.1388): Education, Teaching, and Training Professionals
