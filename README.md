@@ -17,7 +17,7 @@ We want to provide a machine learning solution that helps identify the most like
 - First stack job title vector with job description vector (vectors obtained using the sentence transformer)
 - Second, we apply the K-Means clustering
 - The optimized resulted is shown in the above table.
-- 
+  
 ### Clustering Example:
 | **Cluster id** | **Title**                                      | **Example Job Titles**                                                                                     |
 |----------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------|
@@ -25,6 +25,8 @@ We want to provide a machine learning solution that helps identify the most like
 | 29             | Education, Teaching, and Training Professionals| assistant lecturer; career guidance advisor; digital literacy teacher; drama teacher; driving instructor |
 | 0              | Finance and Business Consulting                | actuarial consultant; business coach; business consultant; business economics researcher; business manager|
 | ...            | ...                                            | ...                                                                                                        |
+
+
 **Total Cluster Count: 33**, each containing around 25~50 related job titles
 
 
