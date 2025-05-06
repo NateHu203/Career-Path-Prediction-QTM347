@@ -16,7 +16,7 @@ We want to provide a machine learning solution that helps identify the most like
 ### Clustering Process:
 - First stack job title vector with job description vector (vectors obtained using the sentence transformer)
 - Second, we apply the K-Means clustering
-- The optimized resulted is shown in the above table.
+- The optimized resulted is shown in the table below:
   
 ### Clustering Example:
 | **Cluster id** | **Title**                                      | **Example Job Titles**                                                                                     |
