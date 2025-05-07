@@ -96,7 +96,7 @@ The project implements and compares two main approaches:
 - Cluster 6 (Confidence: 0.0469): Media, Communication, and Publishing 
 
 
-Input ['administrative assistant', 'logistics coordinator'] as a sequence:
+### Input ['administrative assistant', 'logistics coordinator'] as a sequence:
 - Cluster 16 (Confidence: 0.1650): Transport and Logistics Coordination 
 - Cluster 6 (Confidence: 0.0954):  Media, Communication, and Publishing 
 - Cluster 7 (Confidence: 0.0628): Retail and Logistics Operations 
@@ -104,7 +104,7 @@ Input ['administrative assistant', 'logistics coordinator'] as a sequence:
 - Cluster 31 (Confidence: 0.0443): Industrial Process Engineering and Energy 
 
 
-Input ['retail sales associate', 'retail support staff', 'inventory coordinator'] as a sequence:
+### Input ['retail sales associate', 'retail support staff', 'inventory coordinator'] as a sequence:
 - Cluster 7 (Confidence: 0.1370)
 - Cluster 14 (Confidence: 0.1041)
 - Cluster 10 (Confidence: 0.0849)
