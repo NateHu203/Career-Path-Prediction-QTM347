@@ -45,9 +45,9 @@ We want to provide a machine learning solution that helps identify the most like
    ```
    pip install -r requirements.txt
    ```
-3. Run the models using provided scripts or notebooks:
+3. Run the models using the provided scripts or notebooks:
    ```
-   # To run the transformer model
+   # To run the transformer model:
    python code/Karrierewege_plus_transformer_v2.py
    
    # To use the LSTM model, open the notebook
@@ -74,19 +74,44 @@ The project implements and compares two main approaches:
 **Note:** Model performance metrics and visualizations can be found in the corresponding notebook and log files.
 
 ## Case Study:
-### Input: ['research assistant', 'doctoral researcher', 'postdoctoral researcher'] as a sequance:
+### Input ['research assistant', 'doctoral researcher', 'postdoctoral researcher'] as a sequence:
 - Cluster 14 (Confidence: 0.4919): Scientific Research & Natural Science
 - Cluster 29 (Confidence: 0.1388): Education, Teaching, and Training Professionals
 - Cluster 17 (Confidence: 0.1094): Data, Law, and Information Security
 - Cluster 21 (Confidence: 0.0334): Cultural Heritage and Museum Professions
 - Cluster 0 (Confidence: 0.0260): Finance and Business Consulting
 
-### Input: ['construction laborer', 'metal fabricator'] as a sequence:
+### Input ['construction laborer', 'metal fabricator'] as a sequence:
 - Cluster 1 (Confidence: 0.2233): Construction and Trade Technicians 
 - Cluster 15 (Confidence: 0.1437): Industrial Machinery and Production Operators
 - Cluster 12 (Confidence: 0.0761): ICT and Infrastructure Engineering
 - Cluster 19 (Confidence: 0.0733): Construction, Real Estate, and Building Trades
 - Cluster 16 (Confidence: 0.0633): Transport and Logistics Coordination
+
+### Input ['kitchen assistant', 'warehouse worker'] as a sequence:
+- Cluster 24 (Confidence: 0.1302)
+- Cluster 7 (Confidence: 0.0884)
+- Cluster 26 (Confidence: 0.0710)
+- Cluster 10 (Confidence: 0.0571)
+- Cluster 6 (Confidence: 0.0469)
+
+
+Input ['administrative assistant', 'logistics coordinator'] as a sequence:
+- Cluster 16 (Confidence: 0.1650)
+- Cluster 6 (Confidence: 0.0954)
+- Cluster 7 (Confidence: 0.0628)
+- Cluster 30 (Confidence: 0.0540)
+- Cluster 31 (Confidence: 0.0443)
+
+
+Input ['retail sales associate', 'retail support staff', 'inventory coordinator'] as a sequence:
+- Cluster 7 (Confidence: 0.1370)
+- Cluster 14 (Confidence: 0.1041)
+- Cluster 10 (Confidence: 0.0849)
+- Cluster 29 (Confidence: 0.0662)
+- Cluster 5 (Confidence: 0.0575)
+
+**Note:** The results above come from our transformer model. Please refer to the ``code`` section for code details. 
 
 ## Conclusion of our Experiment
 - The transformer-based sequence model is effective for next-job prediction
@@ -95,7 +120,7 @@ The project implements and compares two main approaches:
 ### Limitations:
 - Data sparsity: Too many job categories will lower our prediction accuracy 
 - K-Means clustering might lead to biases (K-Means++ or K-Medoids might improve)
-- Randomness: Some people switch job not inconsistently, factors such as economy and politics might influence one’s decision as well.
+- Randomness: Some people switch jobs not inconsistently, factors such as the economy and politics might influence one’s decision as well.
 
 ## Contributors
 - Nate Hu, Victor Ji, Tom Suo, Max Jiang
