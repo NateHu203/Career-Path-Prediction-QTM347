@@ -89,19 +89,19 @@ The project implements and compares two main approaches:
 - Cluster 16 (Confidence: 0.0633): Transport and Logistics Coordination
 
 ### Input ['kitchen assistant', 'warehouse worker'] as a sequence:
-- Cluster 24 (Confidence: 0.1302)
-- Cluster 7 (Confidence: 0.0884)
-- Cluster 26 (Confidence: 0.0710)
-- Cluster 10 (Confidence: 0.0571)
-- Cluster 6 (Confidence: 0.0469)
+- Cluster 24 (Confidence: 0.1302): Culinary Arts and Hospitality Services 
+- Cluster 7 (Confidence: 0.0884): Retail and Logistics Operations 
+- Cluster 26 (Confidence: 0.0710): Accounting, Finance, and Recordkeeping 
+- Cluster 10 (Confidence: 0.0571): Office, Administrative, and Customer Service Roles 
+- Cluster 6 (Confidence: 0.0469): Media, Communication, and Publishing 
 
 
 Input ['administrative assistant', 'logistics coordinator'] as a sequence:
-- Cluster 16 (Confidence: 0.1650)
-- Cluster 6 (Confidence: 0.0954)
-- Cluster 7 (Confidence: 0.0628)
-- Cluster 30 (Confidence: 0.0540)
-- Cluster 31 (Confidence: 0.0443)
+- Cluster 16 (Confidence: 0.1650): Transport and Logistics Coordination 
+- Cluster 6 (Confidence: 0.0954):  Media, Communication, and Publishing 
+- Cluster 7 (Confidence: 0.0628): Retail and Logistics Operations 
+- Cluster 30 (Confidence: 0.0540): Aviation Operations and Flight Services 
+- Cluster 31 (Confidence: 0.0443): Industrial Process Engineering and Energy 
 
 
 Input ['retail sales associate', 'retail support staff', 'inventory coordinator'] as a sequence:
@@ -119,7 +119,7 @@ Input ['retail sales associate', 'retail support staff', 'inventory coordinator'
   
 ### Limitations:
 - Data sparsity: Too many job categories will lower our prediction accuracy 
-- K-Means clustering might lead to biases (K-Means++ or K-Medoids might improve)
+- K-Means clustering might lead to biases
 - Randomness: Some people switch jobs not inconsistently, factors such as the economy and politics might influence one’s decision as well.
 
 ## Contributors
