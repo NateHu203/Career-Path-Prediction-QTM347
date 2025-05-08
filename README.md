@@ -19,11 +19,11 @@ We want to provide a machine learning solution that helps identify the most like
 - The optimized resulted is shown in the table below:
   
 ### Clustering Example:
-| **Cluster id** | **Cluster Title**                                      | **Example Job Titles**                                                                                     |
+| **Cluster id** | **Cluster Title**| **Example Job Titles**|
 |----------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| 14             | Scientific Research and Natural Sciences       | anthropologist; astronomer; biochemical engineer; biochemist                                              |
-| 29             | Education, Teaching, and Training Professionals| assistant lecturer; career guidance advisor; digital literacy teacher; drama teacher; driving instructor |
-| 0              | Finance and Business Consulting                | actuarial consultant; business coach; business consultant; business economics researcher; business manager|
+| 14             | Scientific Research and Natural Sciences       | anthropologist; astronomer; biochemical engineer; biochemist; ...|
+| 29             | Education, Teaching, and Training Professionals| assistant lecturer; career guidance advisor; digital literacy teacher; drama teacher; driving instructor; ...|
+| 0              | Finance and Business Consulting                | actuarial consultant; business coach; business consultant; business economics researcher; business manager; ...|
 | ...            | ...                                            | ...                                                                                                        |
 
 
