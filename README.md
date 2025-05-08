@@ -35,7 +35,7 @@ We want to provide a machine learning solution that helps identify the most like
 - `code/Karrierewege_plus_transformer_v2.py`: Transformer-based model implementation
 - `code/lstm_code_v4.ipynb`: LSTM model implementation notebook
 - `models/best_career_transformer_model_clustered.pth`: Trained transformer model checkpoint
-- `results/cluster_assignments.txt`: Results from job clustering analysis
+- `results/cluster_assignments.txt` and `results/manually_assigned_clusters.txt`: Raw and re-formatted results from job clustering analysis
 
 ## Getting Started
 
