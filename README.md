@@ -19,7 +19,7 @@ We want to provide a machine learning solution that helps identify the most like
 - The optimized resulted is shown in the table below:
   
 ### Clustering Example:
-| **Cluster id** | **Title**                                      | **Example Job Titles**                                                                                     |
+| **Cluster id** | **Cluster Title**                                      | **Example Job Titles**                                                                                     |
 |----------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | 14             | Scientific Research and Natural Sciences       | anthropologist; astronomer; biochemical engineer; biochemist                                              |
 | 29             | Education, Teaching, and Training Professionals| assistant lecturer; career guidance advisor; digital literacy teacher; drama teacher; driving instructor |
@@ -105,11 +105,11 @@ The project implements and compares two main approaches:
 
 
 ### Input ['retail sales associate', 'retail support staff', 'inventory coordinator'] as a sequence:
-- Cluster 7 (Confidence: 0.1370)
-- Cluster 14 (Confidence: 0.1041)
-- Cluster 10 (Confidence: 0.0849)
-- Cluster 29 (Confidence: 0.0662)
-- Cluster 5 (Confidence: 0.0575)
+- Cluster 7 (Confidence: 0.1370): Retail and Logistics Operations 
+- Cluster 14 (Confidence: 0.1041): Scientific Research and Natural Sciences 
+- Cluster 10 (Confidence: 0.0849): Office, Administrative, and Customer Service Roles 
+- Cluster 29 (Confidence: 0.0662): Education, Teaching, and Training Professionals 
+- Cluster 5 (Confidence: 0.0575): Marketing, Sales, and Business Development
 
 **Note:** The results above come from our transformer model. Please refer to the ``code`` section for code details. 
 
