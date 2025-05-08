@@ -33,7 +33,7 @@ We want to provide a machine learning solution that helps identify the most like
 ## Git Repo Structure
 - `code/career_data_utils.py`: Utility functions for processing career data
 - `code/Karrierewege_plus_transformer_v2.py`: Transformer-based model implementation
-- `code/lstm_code_v3.ipynb`: LSTM model implementation notebook
+- `code/lstm_code_v4.ipynb`: LSTM model implementation notebook
 - `models/best_career_transformer_model_clustered.pth`: Trained transformer model checkpoint
 - `results/cluster_assignments.txt`: Results from job clustering analysis
 
@@ -73,7 +73,7 @@ The project implements and compares two main approaches:
 
 **Note:** Model performance metrics and visualizations can be found in the corresponding notebook and log files.
 
-## Case Study:
+## Case Studies:
 ### Input ['research assistant', 'doctoral researcher', 'postdoctoral researcher'] as a sequence:
 - Cluster 14 (Confidence: 0.4919): Scientific Research & Natural Science
 - Cluster 29 (Confidence: 0.1388): Education, Teaching, and Training Professionals
